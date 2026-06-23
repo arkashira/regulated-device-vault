@@ -1,7 +1,13 @@
-# HIL Test Harness
+# Team Management
+A simple team management system with role-based access control.
 
-This project provides a HIL test harness with QEMU and mock sensor driver.
+## Features
+* Invite team members with different roles (Developer, QA, Compliance)
+* Revoke access to team members
+* Check permissions for team members
 
 ## Usage
-
-To run the test harness, use the following command:
+1. Create a `TeamManagement` instance
+2. Invite team members using `invite_member`
+3. Revoke access using `revoke_access`
+4. Check permissions using `check_permission`
